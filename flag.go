@@ -1,7 +1,9 @@
 package features
 
-type Flag uint64
-type Toggles uint64
+type (
+	Flag    uint64
+	Toggles uint64
+)
 
 func New(flags ...Flag) Toggles {
 	var r Toggles
