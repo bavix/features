@@ -5,18 +5,21 @@ type (
 	Toggles uint64
 )
 
+// New creates a new Toggles instance with the specified flags set.
 func New(flags ...Flag) Toggles {
-	var r Toggles
-	for _, m := range flags {
-		r |= Toggles(1 << m)
+	var toggles Toggles
+	for _, flag := range flags {
+		toggles |= Toggles(1 << flag)
 	}
 
-	return r
+	return toggles
 }
 
-func (u Toggles) Has(flags ...Flag) bool {
-	for _, m := range flags {
-		if u&Toggles(1<<m) == 0 {
+// Has checks if all the specified flags are set in the Toggles instance.
+// It returns true if all flags are present, otherwise false.
+func (t Toggles) Has(flags ...Flag) bool {
+	for _, f := range flags {
+		if t&Toggles(1<<f) == 0 {
 			return false
 		}
 	}
