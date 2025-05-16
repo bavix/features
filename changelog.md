@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.3 - 2025-05-16
+
+### What's Changed
+
+* upgrade golangci-lint by [@rez1dent3](https://github.com/rez1dent3) in https://github.com/bavix/features/pull/11
+
+**Full Changelog**: https://github.com/bavix/features/compare/v1.0.2...v1.0.3
+
 ## v1.0.1 - 2024-12-18
 
 ### What's Changed
