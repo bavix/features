@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.0.4 - 2025-09-05
+
+### What's Changed
+
+* Bump bavix/.github from 0.3.3 to 0.4.0 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/features/pull/16
+* Bump actions/setup-go from 5 to 6 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/features/pull/15
+* Bump github.com/stretchr/testify from 1.10.0 to 1.11.1 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/features/pull/14
+* Bump actions/checkout from 4 to 5 by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/bavix/features/pull/12
+
+**Full Changelog**: https://github.com/bavix/features/compare/v1.0.3...v1.0.4
+
 ## v1.0.3 - 2025-05-16
 
 ### What's Changed
